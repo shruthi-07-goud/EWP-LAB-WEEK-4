@@ -1,0 +1,67 @@
+body {
+    background-color: #FFF8E7;   /* Light cream */
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color: black;
+}
+
+img {
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: brown;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+input {
+    padding: 8px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+button,
+input[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: darkred;
+}
